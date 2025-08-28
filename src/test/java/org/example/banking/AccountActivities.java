@@ -34,7 +34,7 @@ public String[][] inputFileValues(){
 public String[][] inputFileforFundTransfer(){
     return new String[][] {
             {
-              "0600140000007","0600140000008","2000"
+              "0600140000007","0600140000008","4000"
             }
     };
 }
