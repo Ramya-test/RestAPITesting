@@ -35,7 +35,7 @@ public class FreeAPITesting {
 
     @Test
     public void postFreeAPIMethod(){
-        RequestSpecification reqSpcObj1 = RestAssured.given();
+        RequestSpecification reqSpcObj1 = RestAssured.given();// initialize req spc obj
         reqSpcObj1.baseUri(FreeAPIURL);
 
         Header header = new Header("Content-Type","application/json");
